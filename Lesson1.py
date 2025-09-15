@@ -48,8 +48,16 @@ class Uncertainstats:
 
 sns.boxplot(x, orient=h)
     
-
-
-
-
 # %%
+
+# Example 4 
+# Create a Python class that implements the KDE estimator
+# Takes a vector of data, and returns fN,h and the grid
+# Makes a plot of the KDE
+# Computes an automatic bandwidth, but can be overriden with a user-provided bandwidth
+# Can use any of the common kernels, not just the Gaussian (like Seaborn)
+# Use your class to analyze some numeric variables from a dataset of your choice
+
+class KDE:
+    def __init__(self):
+        pass
